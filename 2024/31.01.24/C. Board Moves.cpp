@@ -8,8 +8,14 @@ int main()
     int t;cin>>t;
     while(t--)
     {
-        int a,b;cin>>a>>b;
-        if((a+b)%2!=0)cout<<"Alice"<<endl;
-        else cout<<"Bob"<<endl;
+        ll ans=0ll;
+        int n;cin>>n;
+
+        for(int i=1;i<=n/2;i++)
+        {
+            ans+=i*1ll*i;
+
+        }
+        cout<<ans*8<<endl;
     }
 }

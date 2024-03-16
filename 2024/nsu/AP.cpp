@@ -6,10 +6,11 @@ const ll mod = 1e9 + 7;
 int main()
 {
     int t;cin>>t;
-    while(t--)
+    vector<int>a(t);
+    for(int i=0;i<t;i++)
     {
-        int a,b;cin>>a>>b;
-        if((a+b)%2!=0)cout<<"Alice"<<endl;
-        else cout<<"Bob"<<endl;
+        cin>>a[i];
     }
+
+
 }
