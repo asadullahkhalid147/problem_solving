@@ -11,7 +11,7 @@ int main()
         int n,k;cin>>n>>k;
         if((n%2==0 && k%2==0)||(n%2 && k%2))
         {
-            if(n<=k || n-k==2)cout<<"YES"<<endl;
+            cout<<"YES"<<endl;
         }
         else cout<<"NO"<<endl;
     }
