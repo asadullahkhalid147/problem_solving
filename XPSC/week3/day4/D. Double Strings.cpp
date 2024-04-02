@@ -18,7 +18,7 @@ int main()
 
         for(int i=0;i<n;i++)
         {
-            bool f=false;
+            bool flag=false;
 
             for(int j=1;j<v[i].length();j++)
             {
@@ -28,10 +28,10 @@ int main()
 
                 if(mp[pref] && mp[suf])
                 {
-                    f=true;
+                    flag=true;
                 }
             }
-            cout<<f;
+            cout<<flag;
         }
 
         cout<<endl;
