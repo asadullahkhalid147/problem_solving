@@ -12,20 +12,18 @@ int main()
 
         int j=1;
         int cnt=1;
+        int flag=0;
         while(j<s.size())
         {
-            if(c<=s[j])
+            if(c>s[j])
             {
-                c=s[j];
-                j++;
+                flag=1;
+                cnt++;
                 
             }
-            else
-            {
-                cnt++;
-                c=s[j];
-                j++;
-            }
+            
+            c=s[j];
+            j++;
 
             
         }
