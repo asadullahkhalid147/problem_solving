@@ -6,7 +6,7 @@ int main()
     cin.tie(NULL);
 
     cout<<"heool";
-
+    vector<int>vec;
 
     return 0;
 }
